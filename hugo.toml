@@ -1,0 +1,66 @@
+baseurl = "http://www.example.com"
+title = "Blog"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+
+[pagination]
+pagerSize = 20
+
+[services]
+[services.disqus]
+shortname = "robot-penguin34"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "robot-penguin34"
+  info = "Professional Nerd"
+  description = "Welcome to my personal blog"
+  keywords = "blog,developer,personal,tech,computers,java,game+dev"
+  avatarurl = "images/avatar.jpg"
+  #gravatar = "john.doe@example.com"
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2024
+
+  enableTwemoji = false
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/robot-penguin34"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 2
+  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 3
+  url = "posts/About"
+[[menu.main]]
+  name = "Welcome"
+  weight = 1
+  url = "posts/Welcome"
