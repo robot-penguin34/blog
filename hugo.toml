@@ -1,4 +1,4 @@
-baseurl = "http://www.example.com"
+baseurl = "http://robot-penguin34.github.io"
 title = "Blog"
 theme = "hugo-coder"
 languagecode = "en"
@@ -59,8 +59,8 @@ style = "github-dark"
 [[menu.main]]
   name = "About"
   weight = 3
-  url = "posts/About"
+  url = "posts/about"
 [[menu.main]]
   name = "Welcome"
   weight = 1
-  url = "posts/Welcome"
+  url = "posts/welcome"
