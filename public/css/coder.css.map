@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "coder.css",
-	"sourceRoot": "/Users/Ryu/Documents/Hugo Sites/Blog",
+	"sourceRoot": "/Users/Ryu/Documents/Hugo_Sites/Blog",
 	"sources": [
 		"themes/hugo-coder/assets/scss/coder.scss",
 		"themes/hugo-coder/assets/scss/css/normalize.css",
